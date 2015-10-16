@@ -1,1 +1,23 @@
-Hello Ricardo, Today is your day make it count
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    {% include head-home.html %}
+  </head>
+
+  <body>
+
+    <div id="main" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="usa-styleguide-footer">
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include analytics.html %}
+    {% include scripts.html %}
+
+  </body>
+
+</html>
