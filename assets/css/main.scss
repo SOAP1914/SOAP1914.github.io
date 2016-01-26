@@ -5,3 +5,49 @@
 // Place list of your partial imports below, located in assets/_scss.
 
 @import 'all';
+
+.usa-section-alt {
+  background-color: #efefef; }
+.usa-section-alt h2 {
+  color: #323a45;
+}
+
+.usa-section-alt2 {
+  background-color: #205493;
+  color: #ffffff; }
+
+.usa-section {
+  padding-bottom: 7.2rem;
+  padding-top: 7.2rem;
+
+  }
+
+.usa-section-dark {
+  background-color: #323a45;
+  color: #ffffff; }
+.usa-section-dark h2,
+.usa-section-dark h3,
+.usa-section-dark .usa-font-lead {
+  color: #ffffff; }
+@media screen and (min-width: 600px) {
+  .usa-section-dark .usa-width-one-half-top {
+  margin-bottom: 7rem; } }
+
+.usa-banner {
+  background-color: #ffffff;
+  background-image: none;
+  color: #323a45;
+  padding-bottom: 3.7rem;
+  padding-top: 2rem; }
+
+.usa-footer-secondary_section {
+  background-color: #ffffff;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.usa-footer-secondary_section a {
+  color: #212121; }
+
+.usa-footer-slim-logo-heading h3 {
+  font-color: #fff;
+}
