@@ -6,8 +6,21 @@
 
 @import 'all';
 
+a {
+  color: #ff7708;
+  text-decoration: none; }
+  a:hover, a:active {
+    color: #ff7708;
+    text-decoration: none;;
+    }
+  a:visited {
+    color: #4c2c92; }
+  a:focus {
+    box-shadow: 0 0 3px #3e94cf, 0 0 7px #3e94cf;
+    outline: 0; }
+
 .usa-section-alt {
-  background-color: #efefef; }
+  background-color: #ffffff; }
 .usa-section-alt h2 {
   color: #323a45;
 }
@@ -40,8 +53,15 @@
   padding-bottom: 3.7rem;
   padding-top: 2rem; }
 
+.usa-banner2 {
+  background-color: #f1f1f1;
+  background-image: none;
+  color: #323a45;
+  padding-bottom: 3.7rem;
+  padding-top: 2rem; }
+
 .usa-footer-secondary_section {
-  background-color: #ffffff;
+  background-color: #f1f1f1;
   padding-top: 3rem;
   padding-bottom: 3rem; }
 
@@ -49,5 +69,8 @@
   color: #212121; }
 
 .usa-footer-slim-logo-heading h3 {
-  font-color: #fff;
-}
+  font-color: #fff; }
+
+.usa-footer-secondary_section2  {
+  background-color: #ff7708;
+  padding-top: 2px;}
